@@ -38,8 +38,8 @@ This document outlines the design of a collaborative todo application. The app a
   - HTML, CSS, JavaScript
   - Framework: React (optional for learning modern JS frameworks)
 - **Backend:**
-  - Language: Python or JavaScript (Node.js)
-  - Framework: Flask (Python) or Express (Node.js)
+  - Language: JavaScript
+  - Framework: Node.js with Express.js
 - **Database:**
   - SQLite (for simplicity)
   - MongoDB or PostgreSQL (for more advanced features)
@@ -114,3 +114,86 @@ This document outlines the design of a collaborative todo application. The app a
 - **Environment:** Deploy on a platform like Heroku or Vercel for easy hosting.
 - **Configuration:** Use environment variables for sensitive information.
 - **Monitoring:** Implement basic monitoring and logging to track app performance.
+
+# Language and Framework Choices
+
+## Backend:
+- **Language:** JavaScript
+- **Framework:** Node.js with Express.js
+
+## Frontend:
+- **Language:** JavaScript
+- **Framework/Library:** React
+
+## Database:
+- **SQLite:** For simplicity and ease of use initially.
+- **Upgrade to PostgreSQL** or **MongoDB** as you grow more comfortable and your app's requirements increase.
+
+## Reasons for These Choices:
+
+1. **JavaScript Everywhere:**
+   - JavaScript is used both on the frontend (React) and backend (Node.js). This consistency allows you to focus on one language, making it easier to learn and manage.
+
+2. **Node.js with Express.js:**
+   - Node.js is popular for building web applications and has a large ecosystem of packages.
+   - Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building single and multi-page web applications.
+
+3. **React:**
+   - React is a powerful and widely-used library for building user interfaces. It has a component-based architecture, which makes it easier to manage and reuse UI components.
+   - React has excellent community support and a rich ecosystem of tools and libraries.
+
+4. **SQLite:**
+   - SQLite is a lightweight, serverless, and self-contained SQL database engine. It’s easy to set up and ideal for beginners.
+   - As your application grows, you can switch to PostgreSQL for a more robust relational database or MongoDB for a NoSQL option.
+
+## Getting Started:
+
+1. **Set Up Your Development Environment:**
+   - **Install Node.js:** Download and install Node.js from [nodejs.org](https://nodejs.org/).
+   - **Set Up a Code Editor:** Use Visual Studio Code (VSCode) or another code editor of your choice.
+
+2. **Initialize Your Project:**
+   - **Backend:**
+     ```sh
+     mkdir collaborative-todo-app
+     cd collaborative-todo-app
+     npm init -y
+     npm install express sqlite3
+     ```
+   - **Frontend:**
+     ```sh
+     npx create-react-app client
+     cd client
+     npm start
+     ```
+
+3. **Build Your Backend:**
+   - Create an `index.js` file and set up a basic Express server.
+   - Set up routes for user registration, login, and task management.
+
+4. **Build Your Frontend:**
+   - Use React to create components for login/register forms, task lists, and task items.
+   - Fetch data from your backend using `fetch` or `axios`.
+
+5. **Learn and Iterate:**
+   - Start with the basic features and gradually add more complex functionality.
+   - Test your application thoroughly and seek feedback from peers or online communities.
+
+## Resources:
+
+- **Node.js and Express.js Documentation:**
+  - [Node.js](https://nodejs.org/en/docs/)
+  - [Express.js](https://expressjs.com/)
+
+- **React Documentation:**
+  - [React](https://reactjs.org/docs/getting-started.html)
+
+- **SQLite Documentation:**
+  - [SQLite](https://www.sqlite.org/docs.html)
+
+- **Learning Platforms:**
+  - [freeCodeCamp](https://www.freecodecamp.org/)
+  - [Codecademy](https://www.codecademy.com/)
+  - [MDN Web Docs](https://developer.mozilla.org/)
+
+Starting with this stack will provide you with a solid foundation in modern web development and make it easier to add more advanced features to your collaborative todo app as you progress.
