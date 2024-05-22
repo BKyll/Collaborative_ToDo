@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-This document outlines the design of a collaborative todo application, aiming to help you learn programming while building a functional and useful tool. The app allows multiple users to add, view, and manage tasks with due dates, descriptions, and additional information. The core features will be developed incrementally, starting with a basic todo list.
+This document outlines the design of a collaborative todo application. The app allows multiple users to add, view, and manage tasks with due dates, descriptions, and additional information. The core features will be developed incrementally, starting with a basic todo list.
 
 ## 2. Goals and Objectives
 
