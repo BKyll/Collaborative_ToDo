@@ -1,0 +1,16 @@
+{
+  "name": "collaborative_todo",
+  "version": "1.0.0",
+  "description": "This document outlines the design of a collaborative todo application. The app allows multiple users to add, view, and manage tasks with due dates, descriptions, and additional information. The core features will be developed incrementally, starting with a basic todo list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
